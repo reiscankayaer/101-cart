@@ -1,0 +1,130 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: #0d1a20;
+}
+
+.kart {
+position: relative;
+background-color: #def1f9;
+width: 600px;
+max-width: 90%;
+border-radius: 16px;
+border: 2px solid #ffffff;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+overflow: hidden;
+}
+
+
+.kart-govdesi {
+display: flex;
+padding: 40px;
+position: relative;
+z-index: 2;
+gap: 30px;
+}
+
+.kart-resmi {
+flex-shrink: 0;
+}
+
+.kart-resmi img {
+width: 110px;
+height: 110px;
+border-radius: 50%;
+object-fit: cover;
+border: 5px solid #ffffff;
+}
+
+.kart-icerigi {
+display: flex;
+flex-direction: column;
+}
+
+.isim {
+font-size: 24px;
+font-weight: 700;
+color: #000000;
+margin-bottom: 2px;
+}
+
+.kullanici-adi {
+font-size: 14px;
+font-weight: 600;
+color: #4a4a4a;
+margin-bottom: 15px;
+}
+
+.hakkinda {
+font-size: 15px;
+color: #555555;
+line-height: 1.5;
+margin-bottom: 25px;
+}
+
+.istatistikler {
+display: flex;
+gap: 40px;
+margin-bottom: 25px;
+}
+
+.istatistik-ogesi {
+display: flex;
+flex-direction: column;
+}
+
+.istatistik-degeri {
+font-size: 18px;
+font-weight: 700;
+color: #000000;
+}
+
+.istatistik-etiketi {
+font-size: 13px;
+font-weight: 700;
+color: #000000;
+}
+
+.butonlar {
+display: flex;
+gap: 15px;
+}
+
+.buton {
+padding: 12px 24px;
+border-radius: 8px;
+font-size: 14px;
+font-weight: 600;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.buton-takip {
+background-color: #222222;
+color: #ffffff;
+border: none;
+}
+
+.buton-takip:hover {
+background-color: #000000;
+}
+
+.buton-profil {
+background-color: transparent;
+color: #000000;
+border: 1px solid #000000;
+}
+
+.buton-profil:hover {
+background-color: rgba(0, 0, 0, 0.05);
+}
+
